@@ -1,6 +1,6 @@
 import './app.scss'
 const App = () => {
-  return <div><section></section>
+  return <div>
   <section>Hero</section>
   <section>Parallax</section>
   <section>Services</section>
