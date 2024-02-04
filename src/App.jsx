@@ -1,6 +1,7 @@
 import './app.scss'
 const App = () => {
   return <div>
+{/*Add NavBar*/}
   <section>Hero</section>
   <section>Parallax</section>
   <section>Services</section>
