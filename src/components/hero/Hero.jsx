@@ -2,7 +2,12 @@ import React from 'react'
 import './hero.scss'
 const Hero = () => {
   return (
-    <div className='hero'>Hero</div>
+    <div className='hero'>
+        <div className="imageContainer">
+            <img src="/profile.png" alt="" />
+        </div>
+    </div>
+    
   )
 }
 
