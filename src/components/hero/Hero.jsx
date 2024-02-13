@@ -57,6 +57,12 @@ const Hero = () => {
 
   return (
     <div className='hero'>
+       <motion.div className="slidingTextContainerTwo" variants={sliderVariants} initial='initial' animate='animate'>
+       Full Stack Web Developer  |   Freelancer    |  Full Stack Web Developer  |  Freelancer  |  Full Stack Web
+        </motion.div>
+       <motion.div className="slidingTextContainerTwo" variants={sliderVariants} initial='initial' animate='animate'>
+       Full Stack Web Developer  |   Freelancer    |  Full Stack Web Developer  |  Freelancer  |  Full Stack Web
+        </motion.div>
         <div className="wrapper">
         <motion.div className="textContainer" variants={textVariants}
         initial="initial" animate="animate">
@@ -73,7 +79,7 @@ const Hero = () => {
          Freelancer  |  Full Stack Web Developer  |  Freelancer  |  Full Stack Web Developer  |  Freelancer  |  Full Stack Web
         </motion.div>
         <div className="imageContainer">
-            <img src="/profile.png" alt="" />
+            <img src="myPic.png" alt="" width={900} height={700}/>
         </div>
     </div>
     
