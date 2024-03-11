@@ -9,10 +9,13 @@ const Parallax = ({ type }) => {
     target: ref,
     offset: ["start start", "end start"],
   });
-
+  const { scrollYProgressTwo } = useScroll({
+    target: ref,
+    offset: ["start start", "start end"],
+  });
   const yText = useTransform(scrollYProgress, [0, 1], ["0%", "500%"]);
   const yBg = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
-
+  const xBg = useTransform(scrollYProgress, [0, 1], ["0%", "700%"]);
   return (
     <div
       className="parallax"
@@ -33,6 +36,12 @@ const Parallax = ({ type }) => {
             type === "services" ? "/planet-icon.png" : "/planet3.png"
           })`,
         }} className="planet"></motion.div>
+        <motion.div style={{
+          x: xBg,
+          backgroundImage: `url(${
+            type === "services" ? "" : "/ship2.png"
+          })`,
+        }} className="ship"></motion.div>
       <motion.div className="mountains " style={{
        
           backgroundImage: `url(${
