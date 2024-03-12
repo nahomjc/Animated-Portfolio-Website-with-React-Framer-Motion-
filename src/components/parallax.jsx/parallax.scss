@@ -29,6 +29,19 @@
         position: absolute;
        
     }
+    .ship{
+        
+        background-image: url('/planet-icon.png');
+        background-size:cover ;
+        background-position: bottom;
+        width: 20%;
+        height: 40%;
+        position: absolute;
+        left: 4px;
+        top:auto;
+       
+       
+    }
     .planets{
         background-image: url('/planets.png');
         background-size:cover ;
