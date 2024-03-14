@@ -60,9 +60,7 @@ const Hero = () => {
        <motion.div className="slidingTextContainerTwo" variants={sliderVariants} initial='initial' animate='animate'>
        Full Stack Web Developer  |   Freelancer    |  Full Stack Web Developer  |  Freelancer  |  Full Stack Web
         </motion.div>
-       <motion.div className="slidingTextContainerTwo" variants={sliderVariants} initial='initial' animate='animate'>
-       Full Stack Web Developer  |   Freelancer    |  Full Stack Web Developer  |  Freelancer  |  Full Stack Web
-        </motion.div>
+       
         <div className="wrapper">
         <motion.div className="textContainer" variants={textVariants}
         initial="initial" animate="animate">
