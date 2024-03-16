@@ -15,7 +15,7 @@ const Parallax = ({ type }) => {
   });
   const yText = useTransform(scrollYProgress, [0, 1], ["0%", "500%"]);
   const yBg = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
-  const xBg = useTransform(scrollYProgress, [0, 1], ["0%", "700%"]);
+  const xBg = useTransform(scrollYProgress, [0, 1], ["0%", "710%"]);
   return (
     <div
       className="parallax"
