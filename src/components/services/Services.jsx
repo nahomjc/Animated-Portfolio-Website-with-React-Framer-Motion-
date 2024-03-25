@@ -22,9 +22,7 @@ const Services = () => {
         <motion.div className="listContainer">
             <div className="box">
                 <h2>Branding</h2>
-                <p>Lorem ipsum dolor sit amet consecture adipiscing elit. 
-                    Nostrum libero enim nisi aliquam consecteture expedita
-                     magni eius ex corrupti anim ad nam pariature assumenda quae mollitia libero repellat</p>
+                <p></p>
                 <button>Go</button>
             </div>
             <div className="box">
