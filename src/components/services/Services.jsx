@@ -5,7 +5,7 @@ const Services = () => {
     <motion.div className='services'>
         <motion.div className="textContainer">
             <p>I focus on helping your bran grow and <br/>
-             move forward</p>
+             move forward.</p>
             <hr/>
         </motion.div>
         <motion.div className="titleContainer">
