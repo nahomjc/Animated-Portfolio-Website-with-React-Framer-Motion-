@@ -5,7 +5,7 @@ const Services = () => {
     <motion.div className='services'>
         <motion.div className="textContainer">
             <p>I focus on helping your bran grow and <br/>
-             move forward</p>
+             move forward.</p>
             <hr/>
         </motion.div>
         <motion.div className="titleContainer">
@@ -22,7 +22,7 @@ const Services = () => {
         <motion.div className="listContainer">
             <div className="box">
                 <h2>Branding</h2>
-                <p>Lorem ipsum dolor sit amet consecture adipiscing elit. 
+                <p>orem ipsum dolor sit amet consecture adipiscing elit. 
                     Nostrum libero enim nisi aliquam consecteture expedita
                      magni eius ex corrupti anim ad nam pariature assumenda quae mollitia libero repellat</p>
                 <button>Go</button>
