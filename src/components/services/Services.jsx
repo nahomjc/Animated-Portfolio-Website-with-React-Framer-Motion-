@@ -29,6 +29,13 @@ const Services = () => {
             </div>
             <div className="box">
                 <h2>Branding</h2>
+                <p>orem ipsum dolor sit amet consecture adipiscing elit. 
+                    Nostrum libero enim nisi aliquam consecteture expedita
+                     magni eius ex corrupti anim ad nam pariature assumenda quae mollitia libero repellat</p>
+                <button>Go</button>
+            </div>
+            <div className="box">
+                <h2>Branding</h2>
                 <p>Lorem ipsum dolor sit amet consecture adipiscing elit. 
                     Nostrum libero enim nisi aliquam consecteture expedita
                      magni eius ex corrupti anim ad nam pariature assumenda quae mollitia libero repellat</p>
