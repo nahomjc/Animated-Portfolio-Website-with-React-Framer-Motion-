@@ -26,7 +26,7 @@ const Services = () => {
     initial='initial'
     whileInView='animate '>
         <motion.div className="textContainer" variants={variants}>
-            <p>I focus on helping your bran grow and <br/>
+            <p>I focus on helping your brand grow and <br/>
              move forward.</p>
             <hr/>
         </motion.div>
