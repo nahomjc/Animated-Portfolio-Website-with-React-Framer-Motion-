@@ -74,7 +74,7 @@ const Hero = () => {
              </motion.div>
         </div>
         <motion.div className="slidingTextContainer" variants={sliderVariants} initial='initial' animate='animate'>
-         Freelancer  |  Full Stack Web Developer  |  Freelancer  |  Full Stack Web Developer  |  Freelancer  |  Full Stack Web
+         Freelancer  |  Full Stack Web Developer  |  Freelancer  |  Full Stack Web Developer  |  Freelancer  |   Full Stack Web Developer  |
         </motion.div>
         <div className="imageContainer">
             <img src="myPic.png" alt="" width={900} height={700}/>
